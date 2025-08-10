@@ -192,6 +192,13 @@ Model                  | Top 1 Accuracy | Pretrain | Finetune |
 ViT-Base (200 epochs)  | 62.65%         | [download](https://zenodo.org/record/7338613/files/pretrain-vit-base-e199.pth)  | [download](https://zenodo.org/record/7338613/files/finetune-vit-base-e7.pth)     |
 ViT-Large (200 epochs) | 63.84%         | [download](https://zenodo.org/record/7338613/files/pretrain-vit-large-e199.pth) | [download](https://zenodo.org/record/7338613/files/finetune-vit-large-e7.pth)    |
 
+## Further Research
+If you are interested, please check out some of our group's follow-on work on foundation models for remote-sensing data:
+* [DiffusionSat: A Generative Foundation Model for Satellite Imagery](https://github.com/samar-khanna/DiffusionSat), in ICLR 2024.
+* [ExPLoRA: Parameter-Efficient Extended Pre-training to Adapt Vision Transformers under Domain Shifts](https://github.com/samar-khanna/ExPLoRA), in ICML 2025.
+
+In particular, ExPLoRA is a superset of SatMAE and contains code to do full or parameter-efficient pre-training in either MAE or DinoV2 flavors.
+
 ## Acknowledgements
 Code from this repository is inspired from the Masked Autoencoders (MAE) [repository](https://github.com/facebookresearch/mae).
 
